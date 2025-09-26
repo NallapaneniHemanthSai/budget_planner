@@ -8,7 +8,7 @@ import AdminDashboard from './components/AdminDashboard';
 function AppContent() {
   const [currentPage, setCurrentPage] = useState('login');
   const { user } = useAuth();
-
+  // modification for new build
   // If user is logged in, show appropriate dashboard
   if (user) {
     // Check user role from session storage

@@ -3,8 +3,8 @@ services:
     image: mysql:8
     container_name: mysql-db
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: lldb
+      MYSQL_ROOT_PASSWORD: docker
+      MYSQL_DATABASE: budgetplanner
     ports:
       - "3307:3306"
     volumes:
